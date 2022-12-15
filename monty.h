@@ -91,6 +91,7 @@ int _isalpha(int c);
 /* Parse functions */
 void parsefile(FILE *file);
 void parseline(line_t *line, char *buffer);
+getline(&(meta->buf), &size, meta->file);
 
 /* Validation functions */
 bool comment_check(line_t line);
